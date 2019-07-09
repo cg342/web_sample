@@ -1,0 +1,28 @@
+<!doctype html>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<!-- Top container -->
+<div class="w3-bar w3-top w3-black w3-large" style="z-index:4">
+  <span class="w3-bar-item w3-right">
+    <a href="{{ url_for('index') }}" style="text-decoration: none">BWH Sleep Medicine</a>
+  </span>
+  <span class="w3-bar-item w3-left"> 
+        <a href="{{ url_for('show_about') }}" style="text-decoration: none">About</a>
+  </span>
+</div>
+
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+
+<div class="center-on-page">  
+<h1>Sleep Analysis App</h1> 
+
+<form method=POST enctype=multipart/form-data action="{{ url_for('index') }}">
+    <label for="file-upload" class="custom-file-upload">
+        Select a file
+    </label>
+    <input id="file-upload" type=file name=data[] multiple="">
+    <button type="sumbit"> Upload </button>
+   
+</form>
+
+
