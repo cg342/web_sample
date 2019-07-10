@@ -553,3 +553,1803 @@ INFO:werkzeug: * Detected change in '/Users/chenxigao/repos/web_sample/main.py',
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 303-112-783
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 146-430-582
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 15:37:11] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 15:37:12] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 15:37:12] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 15:37:12] "GET /static/assets/images/img-08.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 15:37:12] "GET /static/assets/images/img-06.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 15:37:12] "GET /static/assets/images/img-09.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 15:37:12] "GET /static/assets/images/front2.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 15:37:12] "GET /static/assets/images/img-10.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 15:37:12] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 15:37:12] "GET /static/apple-touch-icon.png HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 15:37:12] "GET /static/assets/favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 15:45:00] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 15:45:00] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 15:45:00] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 15:45:00] "GET /static/assets/favicon.ico HTTP/1.1" 404 -
+ERROR:werkzeug:Error on request:
+Traceback (most recent call last):
+  File "/Users/chenxigao/anaconda3/envs/snakes/lib/python2.7/site-packages/werkzeug/serving.py", line 303, in run_wsgi
+    execute(self.server.app)
+  File "/Users/chenxigao/anaconda3/envs/snakes/lib/python2.7/site-packages/werkzeug/serving.py", line 294, in execute
+    write(data)
+  File "/Users/chenxigao/anaconda3/envs/snakes/lib/python2.7/site-packages/werkzeug/serving.py", line 257, in write
+    self.send_header(key, value)
+  File "/Users/chenxigao/anaconda3/envs/snakes/lib/python2.7/BaseHTTPServer.py", line 412, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 15:45:07] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 15:45:08] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 15:45:08] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 15:45:08] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 15:45:08] "GET /static/assets/images/img-09.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 15:45:08] "GET /static/assets/images/img-06.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 15:45:08] "GET /static/assets/images/front2.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 15:45:08] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 15:45:08] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:00:01] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:00:01] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:00:01] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:00:01] "GET /static/assets/images/front2.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:00:01] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:00:02] "GET /static/assets/images/img-09.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:00:02] "GET /static/assets/images/img-06.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:00:02] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:00:02] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:00:02] "GET /static/apple-touch-icon.png HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:00:02] "GET /static/assets/favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:00:14] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:00:15] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:00:15] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:00:15] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:00:15] "GET /static/assets/images/img-06.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:00:15] "GET /static/assets/images/img-09.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:00:15] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:00:15] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:00:15] "GET /static/assets/images/front2.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:00:21] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:00:21] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:00:21] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:00:21] "GET /static/assets/images/img-09.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:00:21] "GET /static/assets/images/img-06.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:00:21] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:00:21] "GET /static/assets/images/front2.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:00:21] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:00:21] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:00:26] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:00:26] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:00:26] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:00:26] "GET /static/assets/images/img-06.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:00:26] "GET /static/assets/images/img-09.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:00:26] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:00:26] "GET /static/assets/images/front2.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:00:27] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:00:27] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:00:37] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:00:37] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:00:37] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:00:37] "GET /static/assets/images/img-09.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:00:37] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:00:37] "GET /static/assets/images/img-06.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:00:37] "GET /static/assets/images/front2.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:00:37] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:00:37] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:00:37] "GET /static/assets/favicon.ico HTTP/1.1" 404 -
+ERROR:werkzeug:Error on request:
+Traceback (most recent call last):
+  File "/Users/chenxigao/anaconda3/envs/snakes/lib/python2.7/site-packages/werkzeug/serving.py", line 303, in run_wsgi
+    execute(self.server.app)
+  File "/Users/chenxigao/anaconda3/envs/snakes/lib/python2.7/site-packages/werkzeug/serving.py", line 294, in execute
+    write(data)
+  File "/Users/chenxigao/anaconda3/envs/snakes/lib/python2.7/site-packages/werkzeug/serving.py", line 257, in write
+    self.send_header(key, value)
+  File "/Users/chenxigao/anaconda3/envs/snakes/lib/python2.7/BaseHTTPServer.py", line 412, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:00:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:00:43] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:00:43] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:00:43] "GET /static/assets/images/img-09.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:00:43] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:00:43] "GET /static/assets/images/img-06.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:00:43] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:00:43] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:00:43] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:00:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:00:51] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:00:51] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:00:51] "GET /static/assets/images/img-09.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:00:51] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:00:51] "GET /static/assets/images/img-06.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:00:51] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:00:51] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:00:51] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:00:56] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:00:56] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:00:56] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:00:56] "GET /static/assets/images/img-06.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:00:56] "GET /static/assets/images/img-09.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:00:56] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:00:56] "GET /static/assets/images/front2.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:00:56] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:00:56] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:01:04] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:01:04] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:01:04] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:01:04] "GET /static/assets/images/img-09.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:01:04] "GET /static/assets/images/img-06.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:01:04] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:01:04] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:01:04] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:01:04] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:01:20] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:01:20] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:01:20] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:01:20] "GET /static/assets/images/img-09.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:01:20] "GET /static/assets/images/img-06.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:01:20] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:01:20] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:01:20] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:01:20] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:01:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:01:29] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:01:29] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:01:29] "GET /static/assets/images/img-06.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:01:29] "GET /static/assets/images/img-09.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:01:29] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:01:29] "GET /static/assets/images/front2.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:01:29] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:01:29] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:03:15] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:03:15] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:03:15] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:03:15] "GET /static/assets/images/img-09.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:03:15] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:03:15] "GET /static/assets/images/img-06.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:03:15] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:03:15] "GET /static/assets/images/front2.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:03:15] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:03:17] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:03:17] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:03:18] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:05:09] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:05:09] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:05:09] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:06:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:06:29] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:06:29] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:06:29] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:06:29] "GET /static/assets/images/front2.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:06:29] "GET /static/assets/images/img-09.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:06:29] "GET /static/assets/images/img-06.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:06:29] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:06:29] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:07:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:07:47] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:07:47] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:07:47] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:07:47] "GET /static/assets/images/front2.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:07:47] "GET /static/assets/favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:07:47] "GET /static/apple-touch-icon.png HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:12:09] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:12:09] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:12:09] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:12:10] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:12:10] "GET /static/assets/images/front2.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:12:10] "GET /static/assets/images/img-09.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:12:10] "GET /static/assets/images/img-06.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:12:10] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:12:10] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:12:10] "GET /static/apple-touch-icon.png HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:12:10] "GET /static/assets/favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:14:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:14:47] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:14:47] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:14:47] "GET /static/assets/images/img-09.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:14:47] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:14:47] "GET /static/assets/images/img-06.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:14:47] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:14:47] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:14:47] "GET /static/assets/images/front2.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:14:47] "GET /static/assets/favicon.ico HTTP/1.1" 404 -
+ERROR:werkzeug:Error on request:
+Traceback (most recent call last):
+  File "/Users/chenxigao/anaconda3/envs/snakes/lib/python2.7/site-packages/werkzeug/serving.py", line 303, in run_wsgi
+    execute(self.server.app)
+  File "/Users/chenxigao/anaconda3/envs/snakes/lib/python2.7/site-packages/werkzeug/serving.py", line 294, in execute
+    write(data)
+  File "/Users/chenxigao/anaconda3/envs/snakes/lib/python2.7/site-packages/werkzeug/serving.py", line 269, in write
+    self.send_header("Server", self.version_string())
+  File "/Users/chenxigao/anaconda3/envs/snakes/lib/python2.7/BaseHTTPServer.py", line 412, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:20:24] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:20:24] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:20:24] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:20:24] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:20:24] "GET /static/assets/images/img-09.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:20:24] "GET /static/assets/images/img-06.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:20:24] "GET /static/assets/images/front2.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:20:24] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:20:24] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:21:17] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:21:17] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:21:17] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:21:17] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:21:17] "GET /static/assets/images/img-09.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:21:17] "GET /static/assets/images/img-06.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:21:17] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:21:17] "GET /static/assets/images/front2.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:21:17] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:21:17] "GET /static/apple-touch-icon.png HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:21:17] "GET /static/assets/favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:22:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:22:12] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:22:12] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:22:12] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:22:12] "GET /static/assets/images/img-09.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:22:12] "GET /static/assets/images/img-06.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:22:12] "GET /static/assets/images/front2.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:22:12] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:22:12] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:22:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:22:43] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:22:43] "GET /static/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:22:44] "GET /static/assets/images/img-09.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:22:44] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:22:44] "GET /static/assets/images/img-06.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:22:44] "GET /static/assets/images/front2.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:22:44] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:22:44] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:23:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:23:12] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:23:12] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:23:12] "GET /static/assets/images/img-06.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:23:12] "GET /static/assets/images/img-09.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:23:12] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:23:12] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:23:12] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:23:12] "GET /static/assets/images/front2.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:23:15] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:23:15] "GET /static/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:23:15] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:23:15] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:23:15] "GET /static/assets/images/img-06.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:23:15] "GET /static/assets/images/img-09.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:23:15] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:23:15] "GET /static/assets/images/front2.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:23:15] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:23:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:23:29] "GET /static/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:23:29] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:23:29] "GET /static/assets/images/img-09.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:23:29] "GET /static/assets/images/img-06.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:23:29] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:23:29] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:23:29] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:23:29] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:25:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:25:31] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:25:31] "GET /static/assets/images/front2.jpg HTTP/1.1" 200 -
+ERROR:werkzeug:Error on request:
+Traceback (most recent call last):
+  File "/Users/chenxigao/anaconda3/envs/snakes/lib/python2.7/site-packages/werkzeug/serving.py", line 303, in run_wsgi
+    execute(self.server.app)
+  File "/Users/chenxigao/anaconda3/envs/snakes/lib/python2.7/site-packages/werkzeug/serving.py", line 294, in execute
+    write(data)
+  File "/Users/chenxigao/anaconda3/envs/snakes/lib/python2.7/site-packages/werkzeug/serving.py", line 257, in write
+    self.send_header(key, value)
+  File "/Users/chenxigao/anaconda3/envs/snakes/lib/python2.7/BaseHTTPServer.py", line 412, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:25:32] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:25:32] "GET /static/apple-touch-icon.png HTTP/1.1" 404 -
+ERROR:werkzeug:Error on request:
+Traceback (most recent call last):
+  File "/Users/chenxigao/anaconda3/envs/snakes/lib/python2.7/site-packages/werkzeug/serving.py", line 303, in run_wsgi
+    execute(self.server.app)
+  File "/Users/chenxigao/anaconda3/envs/snakes/lib/python2.7/site-packages/werkzeug/serving.py", line 294, in execute
+    write(data)
+  File "/Users/chenxigao/anaconda3/envs/snakes/lib/python2.7/site-packages/werkzeug/serving.py", line 257, in write
+    self.send_header(key, value)
+  File "/Users/chenxigao/anaconda3/envs/snakes/lib/python2.7/BaseHTTPServer.py", line 412, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:26:23] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:26:23] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:26:23] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:26:23] "GET /static/assets/images/img-09.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:26:23] "GET /static/assets/images/img-06.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:26:23] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:26:23] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:26:23] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:26:23] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:26:36] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:26:36] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:26:36] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:26:37] "GET /static/assets/images/img-09.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:26:37] "GET /static/assets/images/img-06.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:26:37] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:26:37] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:26:37] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:26:37] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:26:59] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:26:59] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:26:59] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:26:59] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:26:59] "GET /static/assets/images/img-09.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:26:59] "GET /static/assets/images/img-06.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:26:59] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:26:59] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:26:59] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:28:14] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:28:14] "GET /static/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:28:14] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:28:14] "GET /static/assets/images/img-09.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:28:14] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:28:14] "GET /static/assets/images/img-06.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:28:14] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:28:14] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:28:15] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:29:25] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:29:25] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:29:25] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:29:25] "GET /static/assets/images/img-06.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:29:25] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:29:25] "GET /static/assets/images/img-09.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:29:25] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:29:25] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:29:25] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:29:37] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:29:37] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:29:37] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:29:37] "GET /static/assets/images/img-06.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:29:37] "GET /static/assets/images/img-09.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:29:37] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:29:37] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:29:37] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:29:37] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:30:15] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:30:15] "GET /static/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:30:15] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:30:15] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:30:15] "GET /static/assets/images/img-06.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:30:15] "GET /static/assets/images/img-09.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:30:16] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:30:16] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:30:16] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:30:33] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:30:33] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:30:33] "GET /static/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:30:33] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:30:33] "GET /static/assets/images/img-06.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:30:33] "GET /static/assets/images/img-09.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:30:33] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:30:33] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:30:33] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:31:03] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:31:03] "GET /static/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:31:03] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:31:03] "GET /static/assets/images/img-09.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:31:03] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:31:03] "GET /static/assets/images/img-06.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:31:03] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:31:03] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:31:03] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:31:19] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:31:19] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:31:19] "GET /static/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:31:19] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:31:19] "GET /static/assets/images/img-06.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:31:19] "GET /static/assets/images/img-09.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:31:19] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:31:19] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:31:19] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:31:25] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:31:25] "GET /static/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:31:25] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:31:25] "GET /static/assets/images/img-09.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:31:25] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:31:25] "GET /static/assets/images/img-06.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:31:25] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:31:25] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:31:25] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:31:33] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:31:33] "GET /static/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:31:33] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:31:33] "GET /static/assets/images/img-06.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:31:33] "GET /static/assets/images/img-09.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:31:33] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:31:34] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:31:34] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:31:34] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:32:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:32:47] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:32:47] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:32:47] "GET /static/assets/images/img-09.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:32:47] "GET /static/assets/images/img-06.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:32:47] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:32:47] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:32:47] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:32:47] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:34:52] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:34:52] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:34:52] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:34:52] "GET /static/assets/images/img-09.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:34:52] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:34:52] "GET /static/assets/images/img-06.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:34:52] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:34:52] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:34:52] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:36:49] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:36:50] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:36:50] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:36:50] "GET /static/assets/images/img-09.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:36:50] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:36:50] "GET /static/assets/images/img-06.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:36:50] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:36:50] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:36:50] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:40:41] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:40:41] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:40:41] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:40:41] "GET /static/assets/images/img-06.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:40:41] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:40:41] "GET /static/assets/images/img-09.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:40:41] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:40:41] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:40:41] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:40:59] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:40:59] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:40:59] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:40:59] "GET /static/assets/images/img-06.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:40:59] "GET /static/assets/images/img-09.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:40:59] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:40:59] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:40:59] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:40:59] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:44:03] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:44:03] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:44:03] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:44:03] "GET /static/assets/images/img-06.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:44:03] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:44:03] "GET /static/assets/images/img-09.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:44:03] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:44:03] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:44:03] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:46:00] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:46:00] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:46:00] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:46:00] "GET /static/assets/images/img-09.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:46:00] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:46:00] "GET /static/assets/images/img-06.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:46:00] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:46:00] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:46:00] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:46:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:46:30] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:46:30] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:46:30] "GET /static/assets/images/img-09.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:46:30] "GET /static/assets/images/img-06.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:46:30] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:46:30] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:46:30] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:46:30] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:46:41] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:46:41] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:46:42] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:46:42] "GET /static/assets/images/img-09.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:46:42] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:46:42] "GET /static/assets/images/img-06.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:46:42] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:46:42] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:46:42] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:48:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:48:16] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:48:16] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:48:16] "GET /static/assets/images/img-09.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:48:16] "GET /static/assets/images/img-06.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:48:16] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:48:16] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:48:17] "GET /static/assets/images/front2.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:48:17] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:48:46] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:48:46] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:48:46] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:48:46] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:48:46] "GET /static/assets/images/img-06.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:48:46] "GET /static/assets/images/img-09.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:48:47] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:48:47] "GET /static/assets/images/front2.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:48:47] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:48:59] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:48:59] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:48:59] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:48:59] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:48:59] "GET /static/assets/images/img-06.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:48:59] "GET /static/assets/images/img-09.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:48:59] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:48:59] "GET /static/assets/images/front2.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 16:48:59] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:36:55] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:36:55] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:36:55] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:36:55] "GET /static/assets/images/web.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:36:55] "GET /static/assets/images/data.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:36:55] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:36:55] "GET /static/apple-touch-icon.png HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:36:55] "GET /static/assets/favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:37:37] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:37:37] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:37:37] "GET /static/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:37:37] "GET /static/assets/images/data.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:37:37] "GET /static/assets/images/web.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:37:37] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:37:38] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:37:38] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:37:38] "GET /static/assets/images/front2.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:38:04] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:38:04] "GET /static/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:38:04] "GET /static/assets/images/web.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:38:05] "GET /static/assets/images/data.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:38:05] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:38:05] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:38:05] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:38:05] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:38:05] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:38:37] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:38:37] "GET /static/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:38:37] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:38:37] "GET /static/assets/images/web.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:38:37] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:38:37] "GET /static/assets/images/data.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:38:37] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:38:37] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:38:37] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:40:17] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:40:17] "GET /static/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:40:17] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:40:17] "GET /static/assets/images/data.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:40:17] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:40:17] "GET /static/assets/images/web.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:40:17] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:40:17] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:40:17] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:42:24] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:42:24] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:42:24] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:42:24] "GET /static/assets/images/web.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:42:24] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:42:24] "GET /static/assets/images/data.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:42:25] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:42:25] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:42:25] "GET /static/assets/images/front2.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:42:25] "GET /static/apple-touch-icon.png HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:42:25] "GET /static/assets/favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:44:14] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:44:15] "GET /static/apple-touch-icon.png HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:44:15] "GET /static/assets/favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:44:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:44:16] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:44:16] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:44:16] "GET /static/assets/images/web.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:44:16] "GET /static/assets/images/data.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:44:16] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:44:16] "GET /static/assets/images/front2.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:44:16] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:44:16] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:45:20] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:45:20] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:45:20] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:45:20] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:45:20] "GET /static/assets/images/data.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:45:20] "GET /static/assets/images/web.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:45:20] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:45:20] "GET /static/assets/images/front2.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:45:20] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:46:34] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:46:34] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:46:34] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:46:35] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:46:35] "GET /static/assets/images/web.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:46:35] "GET /static/assets/images/data.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:46:35] "GET /static/assets/images/front2.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:46:35] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:46:35] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:46:48] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:46:48] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:46:48] "GET /static/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:46:48] "GET /static/assets/images/web.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:46:48] "GET /static/assets/images/data.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:46:48] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:46:48] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:46:48] "GET /static/assets/images/front2.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:46:48] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:47:48] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:47:48] "GET /static/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:47:48] "GET /static/assets/images/data.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:47:48] "GET /static/assets/images/web.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:47:48] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:47:48] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:47:48] "GET /static/assets/images/front2.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:47:48] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:47:48] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:47:50] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:47:50] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:47:50] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:49:18] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:49:18] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:49:18] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:49:18] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:49:18] "GET /static/apple-touch-icon.png HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 20:49:18] "GET /static/assets/favicon.ico HTTP/1.1" 404 -
+ERROR:werkzeug:Error on request:
+Traceback (most recent call last):
+  File "/Users/chenxigao/anaconda3/envs/snakes/lib/python2.7/site-packages/werkzeug/serving.py", line 303, in run_wsgi
+    execute(self.server.app)
+  File "/Users/chenxigao/anaconda3/envs/snakes/lib/python2.7/site-packages/werkzeug/serving.py", line 294, in execute
+    write(data)
+  File "/Users/chenxigao/anaconda3/envs/snakes/lib/python2.7/site-packages/werkzeug/serving.py", line 257, in write
+    self.send_header(key, value)
+  File "/Users/chenxigao/anaconda3/envs/snakes/lib/python2.7/BaseHTTPServer.py", line 412, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:30:23] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:30:23] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:30:23] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:30:23] "GET /static/assets/images/web.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:30:23] "GET /static/assets/images/data.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:30:24] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:30:24] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:30:24] "GET /static/assets/images/research.png HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:30:24] "GET /static/assets/images/front2.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:30:24] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:30:24] "GET /static/assets/favicon.ico HTTP/1.1" 404 -
+ERROR:werkzeug:Error on request:
+Traceback (most recent call last):
+  File "/Users/chenxigao/anaconda3/envs/snakes/lib/python2.7/site-packages/werkzeug/serving.py", line 303, in run_wsgi
+    execute(self.server.app)
+  File "/Users/chenxigao/anaconda3/envs/snakes/lib/python2.7/site-packages/werkzeug/serving.py", line 294, in execute
+    write(data)
+  File "/Users/chenxigao/anaconda3/envs/snakes/lib/python2.7/site-packages/werkzeug/serving.py", line 269, in write
+    self.send_header("Server", self.version_string())
+  File "/Users/chenxigao/anaconda3/envs/snakes/lib/python2.7/BaseHTTPServer.py", line 412, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:32:27] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:32:27] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:32:27] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:32:27] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:32:27] "GET /static/assets/images/web.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:32:27] "GET /static/assets/images/data.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:32:27] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:32:27] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:32:27] "GET /static/assets/images/front2.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:33:09] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:33:09] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:33:09] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:33:09] "GET /static/assets/images/research.png HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:33:09] "GET /static/assets/images/data.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:33:09] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:33:09] "GET /static/assets/images/web.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:33:09] "GET /static/assets/images/front2.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:33:09] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:33:09] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:33:36] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:33:36] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:33:36] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:33:36] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:33:36] "GET /static/assets/images/research.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:33:36] "GET /static/assets/images/web.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:33:36] "GET /static/assets/images/data.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:33:36] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:33:36] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:33:36] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:36:09] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:36:09] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:36:09] "GET /static/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:36:09] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:36:09] "GET /static/assets/images/data.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:36:09] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:36:09] "GET /static/assets/images/web.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:36:10] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:36:10] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:36:10] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:39:23] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:39:23] "GET /static/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:39:23] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:39:23] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:39:23] "GET /static/assets/images/web.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:39:23] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:39:23] "GET /static/assets/images/data.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:39:24] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:39:24] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:39:24] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:40:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:40:44] "GET /static/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:40:44] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:40:44] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:40:44] "GET /static/assets/images/data.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:40:44] "GET /static/assets/images/web.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:40:44] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:40:44] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:40:44] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:40:44] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:42:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:42:13] "GET /static/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:42:13] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:42:13] "GET /static/assets/images/data.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:42:13] "GET /static/assets/images/web.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:42:13] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:42:13] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:42:13] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:42:13] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:42:37] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:42:37] "GET /static/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:42:37] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:42:37] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:42:37] "GET /static/assets/images/data.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:42:37] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:42:37] "GET /static/assets/images/web.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:42:37] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:42:37] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:42:37] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:42:37] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:44:19] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:44:19] "GET /static/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:44:19] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:44:19] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:44:19] "GET /static/assets/images/data.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:44:19] "GET /static/assets/images/web.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:44:19] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:44:19] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:44:19] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:44:19] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:44:19] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:44:37] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:44:37] "GET /static/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:44:37] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:44:37] "GET /static/assets/images/web.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:44:37] "GET /static/assets/images/data.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:44:37] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:44:37] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:44:38] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:44:38] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:44:38] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:44:38] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:45:26] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:45:26] "GET /static/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:45:26] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:45:26] "GET /static/assets/images/web.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:45:26] "GET /static/assets/images/data.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:45:26] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:45:26] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:45:26] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:45:26] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:45:26] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:45:26] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:46:33] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:46:33] "GET /static/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:46:33] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:46:33] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:46:33] "GET /static/assets/images/web.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:46:33] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:46:33] "GET /static/assets/images/data.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:46:33] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:46:33] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:46:33] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:46:33] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:47:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:47:02] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:47:03] "GET /static/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:47:03] "GET /static/assets/images/data.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:47:03] "GET /static/assets/images/web.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:47:03] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:47:03] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:47:03] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:47:03] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:47:03] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:47:03] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:47:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:47:31] "GET /static/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:47:31] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:47:31] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:47:31] "GET /static/assets/images/data.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:47:31] "GET /static/assets/images/web.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:47:31] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:47:31] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:47:31] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:47:31] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:47:31] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:47:59] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:48:00] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:48:00] "GET /static/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:48:00] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:48:00] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:48:00] "GET /static/assets/images/web.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:48:00] "GET /static/assets/images/data.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:48:00] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:48:00] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:48:00] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:48:00] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:48:06] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:48:06] "GET /static/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:48:06] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:48:06] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:48:06] "GET /static/assets/images/web.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:48:06] "GET /static/assets/images/data.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:48:06] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:48:06] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:48:06] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:48:06] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:48:06] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:48:24] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:48:24] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:48:24] "GET /static/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:48:24] "GET /static/assets/images/web.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:48:24] "GET /static/assets/images/data.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:48:24] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:48:24] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:48:24] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:48:24] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:48:24] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 21:48:24] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 146-430-582
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:20:26] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:20:26] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:20:26] "GET /static/assets/images/front2.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:20:26] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:20:26] "GET /static/assets/images/web.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:20:26] "GET /static/assets/images/data.png HTTP/1.1" 200 -
+ERROR:werkzeug:Error on request:
+Traceback (most recent call last):
+  File "/Users/chenxigao/anaconda3/envs/snakes/lib/python2.7/site-packages/werkzeug/serving.py", line 303, in run_wsgi
+    execute(self.server.app)
+  File "/Users/chenxigao/anaconda3/envs/snakes/lib/python2.7/site-packages/werkzeug/serving.py", line 294, in execute
+    write(data)
+  File "/Users/chenxigao/anaconda3/envs/snakes/lib/python2.7/site-packages/werkzeug/serving.py", line 269, in write
+    self.send_header("Server", self.version_string())
+  File "/Users/chenxigao/anaconda3/envs/snakes/lib/python2.7/BaseHTTPServer.py", line 412, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe
+ERROR:werkzeug:Error on request:
+Traceback (most recent call last):
+  File "/Users/chenxigao/anaconda3/envs/snakes/lib/python2.7/site-packages/werkzeug/serving.py", line 303, in run_wsgi
+    execute(self.server.app)
+  File "/Users/chenxigao/anaconda3/envs/snakes/lib/python2.7/site-packages/werkzeug/serving.py", line 294, in execute
+    write(data)
+  File "/Users/chenxigao/anaconda3/envs/snakes/lib/python2.7/site-packages/werkzeug/serving.py", line 257, in write
+    self.send_header(key, value)
+  File "/Users/chenxigao/anaconda3/envs/snakes/lib/python2.7/BaseHTTPServer.py", line 412, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe
+ERROR:werkzeug:Error on request:
+Traceback (most recent call last):
+  File "/Users/chenxigao/anaconda3/envs/snakes/lib/python2.7/site-packages/werkzeug/serving.py", line 303, in run_wsgi
+    execute(self.server.app)
+  File "/Users/chenxigao/anaconda3/envs/snakes/lib/python2.7/site-packages/werkzeug/serving.py", line 294, in execute
+    write(data)
+  File "/Users/chenxigao/anaconda3/envs/snakes/lib/python2.7/site-packages/werkzeug/serving.py", line 269, in write
+    self.send_header("Server", self.version_string())
+  File "/Users/chenxigao/anaconda3/envs/snakes/lib/python2.7/BaseHTTPServer.py", line 412, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe
+ERROR:werkzeug:Error on request:
+Traceback (most recent call last):
+  File "/Users/chenxigao/anaconda3/envs/snakes/lib/python2.7/site-packages/werkzeug/serving.py", line 303, in run_wsgi
+    execute(self.server.app)
+  File "/Users/chenxigao/anaconda3/envs/snakes/lib/python2.7/site-packages/werkzeug/serving.py", line 294, in execute
+    write(data)
+  File "/Users/chenxigao/anaconda3/envs/snakes/lib/python2.7/site-packages/werkzeug/serving.py", line 269, in write
+    self.send_header("Server", self.version_string())
+  File "/Users/chenxigao/anaconda3/envs/snakes/lib/python2.7/BaseHTTPServer.py", line 412, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:21:00] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:21:00] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:21:00] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:21:00] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:21:00] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:21:00] "GET /static/assets/images/data.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:21:00] "GET /static/assets/images/web.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:21:00] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:21:00] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:21:00] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:21:45] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:21:45] "GET /static/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:21:45] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:21:45] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:21:45] "GET /static/assets/images/data.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:21:45] "GET /static/assets/images/web.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:21:45] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:21:45] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:21:45] "GET /static/assets/images/front2.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:21:45] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:21:45] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:22:03] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:22:03] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:22:03] "GET /static/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:22:03] "GET /static/assets/images/web.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:22:03] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:22:03] "GET /static/assets/images/data.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:22:03] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:22:03] "GET /static/assets/images/front2.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:22:03] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:22:03] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:22:03] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:22:49] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:22:50] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:22:50] "GET /static/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:22:50] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:22:50] "GET /static/assets/images/web.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:22:50] "GET /static/assets/images/data.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:22:50] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:22:50] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:22:50] "GET /static/assets/images/front2.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:22:50] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:22:50] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:26:45] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:26:45] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:26:45] "GET /static/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:26:45] "GET /static/assets/images/web.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:26:45] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:26:45] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:26:45] "GET /static/assets/images/data.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:26:45] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:26:45] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:26:45] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:26:45] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:27:14] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:27:14] "GET /static/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:27:14] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:27:14] "GET /static/assets/images/web.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:27:14] "GET /static/assets/images/data.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:27:14] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:27:14] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:27:14] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:27:14] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:27:14] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:27:14] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:28:11] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:28:11] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:28:11] "GET /static/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:28:11] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:28:11] "GET /static/assets/images/data.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:28:11] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:28:11] "GET /static/assets/images/web.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:28:11] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:28:11] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:28:11] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:28:11] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:29:15] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:29:15] "GET /static/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:29:15] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:29:15] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:29:15] "GET /static/assets/images/web.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:29:15] "GET /static/assets/images/data.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:29:15] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:29:15] "GET /static/assets/images/front2.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:29:15] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:29:15] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:29:15] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:30:50] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:30:50] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:30:50] "GET /static/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:30:50] "GET /static/assets/images/web.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:30:50] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:30:50] "GET /static/assets/images/data.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:30:50] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:30:50] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:30:50] "GET /static/assets/images/front2.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:30:50] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:30:50] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:32:03] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:32:03] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:32:03] "GET /static/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:32:03] "GET /static/assets/images/web.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:32:03] "GET /static/assets/images/data.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:32:03] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:32:03] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:32:03] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:32:03] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:32:03] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:32:03] "GET /static/assets/images/front2.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:32:28] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:32:28] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:32:28] "GET /static/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:32:28] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:32:28] "GET /static/assets/images/web.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:32:28] "GET /static/assets/images/data.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:32:28] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:32:28] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:32:28] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:32:28] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:32:28] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:32:56] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:32:56] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:32:56] "GET /static/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:32:56] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:32:56] "GET /static/assets/images/web.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:32:56] "GET /static/assets/images/data.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:32:56] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:32:56] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:32:56] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:32:56] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:32:56] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:35:52] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:35:52] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:35:52] "GET /static/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:35:52] "GET /static/assets/images/data.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:35:52] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:35:52] "GET /static/assets/images/web.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:35:52] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:35:53] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:35:53] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:35:53] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:35:53] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:37:24] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:37:24] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:37:24] "GET /static/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:37:24] "GET /static/assets/images/web.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:37:24] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:37:24] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:37:24] "GET /static/assets/images/data.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:37:24] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:37:24] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:37:24] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:37:24] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:38:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:38:43] "GET /static/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:38:43] "GET /static/assets/images/data.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:38:43] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:38:43] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:38:43] "GET /static/assets/images/web.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:38:43] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:38:43] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:38:43] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:38:43] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:38:43] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:42:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:42:57] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:42:57] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:42:57] "GET /static/assets/images/data.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:42:57] "GET /static/assets/images/web.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:42:57] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:42:57] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:42:57] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:42:57] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:42:57] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:42:57] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:43:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:43:08] "GET /static/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:43:08] "GET /static/assets/images/web.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:43:08] "GET /static/assets/images/data.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:43:08] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:43:08] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:43:08] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:43:08] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:43:08] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:43:08] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:43:08] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:44:48] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:44:48] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:44:48] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:44:48] "GET /static/assets/images/data.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:44:48] "GET /static/assets/images/web.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:44:48] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:44:48] "GET /static/assets/images/front2.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:44:48] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:44:48] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:44:48] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:44:48] "GET /static/apple-touch-icon.png HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:44:48] "GET /static/assets/favicon.ico HTTP/1.1" 404 -
+ERROR:werkzeug:Error on request:
+Traceback (most recent call last):
+  File "/Users/chenxigao/anaconda3/envs/snakes/lib/python2.7/site-packages/werkzeug/serving.py", line 303, in run_wsgi
+    execute(self.server.app)
+  File "/Users/chenxigao/anaconda3/envs/snakes/lib/python2.7/site-packages/werkzeug/serving.py", line 294, in execute
+    write(data)
+  File "/Users/chenxigao/anaconda3/envs/snakes/lib/python2.7/site-packages/werkzeug/serving.py", line 269, in write
+    self.send_header("Server", self.version_string())
+  File "/Users/chenxigao/anaconda3/envs/snakes/lib/python2.7/BaseHTTPServer.py", line 412, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:45:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:45:02] "GET /static/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:45:02] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:45:02] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:45:02] "GET /static/assets/images/web.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:45:02] "GET /static/assets/images/data.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:45:02] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:45:02] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:45:02] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:45:02] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:45:36] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:45:36] "GET /static/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:45:36] "GET /static/assets/images/data.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:45:36] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:45:36] "GET /static/assets/images/web.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:45:36] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:45:36] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:45:36] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:45:36] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:45:36] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:47:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:47:38] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:47:38] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:47:38] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:47:38] "GET /static/assets/images/web.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:47:38] "GET /static/assets/images/data.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:47:38] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:47:38] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:47:38] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:47:38] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:48:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:48:58] "GET /static/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:48:58] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:48:58] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:48:58] "GET /static/assets/images/data.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:48:58] "GET /static/assets/images/web.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:48:58] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:48:58] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:48:58] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:48:58] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:48:59] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:49:11] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:49:11] "GET /static/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:49:11] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:49:11] "GET /static/assets/images/data.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:49:11] "GET /static/assets/images/web.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:49:11] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:49:11] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:49:11] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:49:11] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:49:11] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:49:22] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:49:22] "GET /static/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:49:22] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:49:22] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:49:22] "GET /static/assets/images/data.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:49:22] "GET /static/assets/images/web.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:49:22] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:49:22] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:49:22] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:49:22] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:49:28] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:49:28] "GET /static/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:49:28] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:49:28] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:49:28] "GET /static/assets/images/web.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:49:28] "GET /static/assets/images/data.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:49:28] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:49:28] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:49:28] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:49:28] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:49:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:49:44] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:49:44] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:49:44] "GET /static/assets/images/data.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:49:44] "GET /static/assets/images/web.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:49:44] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:49:44] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:49:44] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:49:44] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:49:44] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:50:10] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:50:10] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:50:10] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:50:10] "GET /static/assets/images/data.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:50:10] "GET /static/assets/images/web.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:50:10] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:50:10] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:50:10] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:50:10] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:50:10] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:50:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:50:47] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:50:47] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:50:47] "GET /static/assets/images/data.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:50:47] "GET /static/assets/images/web.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:50:47] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:50:47] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:50:47] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:50:47] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:50:47] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:51:15] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:51:15] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:51:15] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:51:15] "GET /static/assets/images/data.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:51:15] "GET /static/assets/images/web.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:51:15] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:51:16] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:51:16] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:51:16] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:51:16] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:57:24] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:57:24] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:57:24] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:57:24] "GET /static/assets/images/web.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:57:24] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:57:24] "GET /static/assets/images/data.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:57:24] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:57:24] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:57:24] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 22:57:24] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:00:17] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:00:17] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:00:17] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:00:17] "GET /static/assets/images/web.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:00:17] "GET /static/assets/images/data.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:00:17] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:00:17] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:00:17] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:00:17] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:00:17] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:01:10] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:01:10] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:01:10] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:01:10] "GET /static/assets/images/data.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:01:10] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:01:10] "GET /static/assets/images/web.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:01:11] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:01:11] "GET /static/assets/images/img-10.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:01:11] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:01:11] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:02:46] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:02:46] "GET /static/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:02:46] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:02:46] "GET /static/assets/images/web.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:02:46] "GET /static/assets/images/data.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:02:46] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:02:50] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:02:50] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:02:50] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:05:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:05:13] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:05:13] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:05:13] "GET /static/assets/images/data.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:05:13] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:05:13] "GET /static/assets/images/web.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:05:13] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:05:13] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:05:13] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:06:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:06:12] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:06:12] "GET /static/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:06:12] "GET /static/assets/images/data.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:06:12] "GET /static/assets/images/web.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:06:12] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:06:12] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:06:12] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:06:12] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:11:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:11:59] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:11:59] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:11:59] "GET /static/assets/images/web.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:11:59] "GET /static/assets/images/data.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:11:59] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:11:59] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:11:59] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:11:59] "GET /static/assets/images/front2.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:11:59] "GET /static/apple-touch-icon.png HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:11:59] "GET /static/assets/favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:12:02] "GET /Chenxi_Resume_2019_July.pdf HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:12:03] "GET /favicon.ico HTTP/1.1" 404 -
+ERROR:werkzeug:Error on request:
+Traceback (most recent call last):
+  File "/Users/chenxigao/anaconda3/envs/snakes/lib/python2.7/site-packages/werkzeug/serving.py", line 303, in run_wsgi
+    execute(self.server.app)
+  File "/Users/chenxigao/anaconda3/envs/snakes/lib/python2.7/site-packages/werkzeug/serving.py", line 294, in execute
+    write(data)
+  File "/Users/chenxigao/anaconda3/envs/snakes/lib/python2.7/site-packages/werkzeug/serving.py", line 257, in write
+    self.send_header(key, value)
+  File "/Users/chenxigao/anaconda3/envs/snakes/lib/python2.7/BaseHTTPServer.py", line 412, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:12:34] "GET /Chenxi_Resume_2019_July.pdf HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:12:35] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:12:48] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:12:48] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:12:48] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:12:48] "GET /static/assets/images/data.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:12:48] "GET /static/assets/images/web.png HTTP/1.1" 200 -
+ERROR:werkzeug:Error on request:
+Traceback (most recent call last):
+  File "/Users/chenxigao/anaconda3/envs/snakes/lib/python2.7/site-packages/werkzeug/serving.py", line 303, in run_wsgi
+    execute(self.server.app)
+  File "/Users/chenxigao/anaconda3/envs/snakes/lib/python2.7/site-packages/werkzeug/serving.py", line 294, in execute
+    write(data)
+  File "/Users/chenxigao/anaconda3/envs/snakes/lib/python2.7/site-packages/werkzeug/serving.py", line 257, in write
+    self.send_header(key, value)
+  File "/Users/chenxigao/anaconda3/envs/snakes/lib/python2.7/BaseHTTPServer.py", line 412, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:12:48] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:12:48] "GET /static/apple-touch-icon.png HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:12:48] "GET /static/assets/favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:12:50] "GET /static/Chenxi_Resume_2019_July.pdf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:13:46] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:13:46] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:13:46] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:13:46] "GET /static/assets/images/web.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:13:46] "GET /static/assets/images/data.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:13:46] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:13:47] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:13:47] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:13:47] "GET /static/assets/images/front2.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:13:47] "GET /static/apple-touch-icon.png HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:13:47] "GET /static/assets/favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:13:55] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:13:55] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:13:55] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+ERROR:werkzeug:Error on request:
+Traceback (most recent call last):
+  File "/Users/chenxigao/anaconda3/envs/snakes/lib/python2.7/site-packages/werkzeug/serving.py", line 303, in run_wsgi
+    execute(self.server.app)
+  File "/Users/chenxigao/anaconda3/envs/snakes/lib/python2.7/site-packages/werkzeug/serving.py", line 294, in execute
+    write(data)
+  File "/Users/chenxigao/anaconda3/envs/snakes/lib/python2.7/site-packages/werkzeug/serving.py", line 257, in write
+    self.send_header(key, value)
+  File "/Users/chenxigao/anaconda3/envs/snakes/lib/python2.7/BaseHTTPServer.py", line 412, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:13:55] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:16:06] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:16:06] "GET /static/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:16:06] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:16:06] "GET /static/assets/images/web.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:16:06] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:16:06] "GET /static/assets/images/data.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:16:06] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:16:06] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:16:06] "GET /static/assets/images/front2.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:16:06] "GET /static/assets/favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:17:03] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:17:03] "GET /static/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:17:03] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:17:03] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:17:03] "GET /static/assets/images/data.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:17:03] "GET /static/assets/images/web.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:17:03] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:17:03] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:17:03] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:19:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:19:02] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:19:02] "GET /static/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:19:02] "GET /static/assets/images/data.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:19:02] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:19:02] "GET /static/assets/images/web.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:19:02] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:19:02] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:19:02] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:24:52] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:24:52] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:24:52] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:24:52] "GET /static/assets/images/web.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:24:52] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:24:52] "GET /static/assets/images/data.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:24:52] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:24:52] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:24:52] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:25:53] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:25:53] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:25:53] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:25:53] "GET /static/assets/images/data.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:25:53] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:25:53] "GET /static/assets/images/web.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:25:53] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:25:53] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:25:53] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:25:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:25:58] "GET /static/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:25:58] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:25:58] "GET /static/assets/images/web.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:25:58] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:25:58] "GET /static/assets/images/data.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:25:58] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:25:58] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:25:58] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:26:20] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:26:20] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:26:20] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:26:21] "GET /static/assets/images/web.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:26:21] "GET /static/assets/images/data.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:26:21] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:26:21] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:26:21] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:26:21] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:27:15] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:27:15] "GET /static/assets/images/data.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:27:15] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:27:15] "GET /static/assets/images/web.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:27:15] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:27:15] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:27:15] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:27:15] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:27:15] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:27:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:27:31] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:27:31] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:27:31] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:27:31] "GET /static/assets/images/web.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:27:31] "GET /static/assets/images/data.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:27:31] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:27:31] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:27:31] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:28:27] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:28:27] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:28:27] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:28:27] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:28:27] "GET /static/assets/images/web.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:28:27] "GET /static/assets/images/data.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:28:27] "GET /static/assets/images/front2.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:28:27] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:28:27] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:30:53] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:30:53] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:30:53] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:30:53] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:30:53] "GET /static/assets/images/web.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:30:53] "GET /static/assets/images/data.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:30:53] "GET /static/assets/images/front2.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:30:53] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:30:53] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:30:53] "GET /static/apple-touch-icon.png HTTP/1.1" 404 -
+ERROR:werkzeug:Error on request:
+Traceback (most recent call last):
+  File "/Users/chenxigao/anaconda3/envs/snakes/lib/python2.7/site-packages/werkzeug/serving.py", line 303, in run_wsgi
+    execute(self.server.app)
+  File "/Users/chenxigao/anaconda3/envs/snakes/lib/python2.7/site-packages/werkzeug/serving.py", line 294, in execute
+    write(data)
+  File "/Users/chenxigao/anaconda3/envs/snakes/lib/python2.7/site-packages/werkzeug/serving.py", line 271, in write
+    self.send_header("Date", self.date_time_string())
+  File "/Users/chenxigao/anaconda3/envs/snakes/lib/python2.7/BaseHTTPServer.py", line 412, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:31:20] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:31:20] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:31:21] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:31:21] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:31:21] "GET /static/assets/images/data.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:31:21] "GET /static/assets/images/web.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:31:21] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:31:21] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:31:21] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:31:48] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:31:48] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:31:48] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:31:48] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:31:48] "GET /static/assets/images/data.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:31:48] "GET /static/assets/images/web.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:31:48] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:31:48] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:31:48] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:35:14] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:35:14] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:35:14] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:35:14] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:35:14] "GET /static/assets/images/web.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:35:14] "GET /static/assets/images/data.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:35:14] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:35:14] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:35:14] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:36:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:36:08] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:36:08] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:36:08] "GET /static/assets/images/data.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:36:08] "GET /static/assets/images/web.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:36:08] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:36:08] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:36:08] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:36:08] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:36:26] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:36:26] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:36:26] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:36:26] "GET /static/assets/images/web.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:36:26] "GET /static/assets/images/data.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:36:26] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:36:27] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:36:27] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:36:27] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:38:26] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:38:27] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:38:27] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:38:27] "GET /static/assets/images/data.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:38:27] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:38:27] "GET /static/assets/images/web.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:38:27] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:38:27] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:38:27] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:39:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:39:44] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:39:44] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:39:44] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:39:44] "GET /static/assets/images/data.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:39:44] "GET /static/assets/images/web.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:39:44] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:39:44] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:39:44] "GET /static/assets/images/front2.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:39:46] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:39:46] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:39:46] "GET /static/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:39:46] "GET /static/assets/images/data.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:39:46] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:39:46] "GET /static/assets/images/web.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:39:46] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:39:46] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:39:46] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:40:03] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:40:03] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:40:03] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:40:03] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:40:03] "GET /static/assets/images/web.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:40:03] "GET /static/assets/images/data.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:40:03] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:40:03] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:40:03] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:43:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:43:31] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:43:31] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:43:31] "GET /static/assets/images/web.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:43:31] "GET /static/assets/images/data.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:43:31] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:43:31] "GET /static/assets/images/front2.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:43:32] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:43:32] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:43:32] "GET /static/apple-touch-icon.png HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:43:32] "GET /static/assets/favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:45:19] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:45:19] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:45:19] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:45:19] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:45:19] "GET /static/assets/images/data.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:45:19] "GET /static/assets/images/web.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:45:19] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:45:19] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:45:19] "GET /static/assets/images/front2.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:45:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:45:39] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:45:39] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:45:39] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:45:39] "GET /static/assets/images/web.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:45:39] "GET /static/assets/images/data.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:45:39] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:45:39] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:45:39] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:45:45] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:45:46] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:45:46] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:45:46] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:45:46] "GET /static/assets/images/web.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:45:46] "GET /static/assets/images/data.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:45:46] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:45:46] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:45:46] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:46:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:46:29] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:46:29] "GET /static/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:46:29] "GET /static/assets/images/data.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:46:29] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:46:29] "GET /static/assets/images/web.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:46:29] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:46:29] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:46:29] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:46:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:46:57] "GET /static/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:46:57] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:46:57] "GET /static/assets/images/data.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:46:57] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:46:57] "GET /static/assets/images/web.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:46:57] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:46:57] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:46:57] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:47:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:47:38] "GET /static/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:47:38] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:47:38] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:47:38] "GET /static/assets/images/web.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:47:38] "GET /static/assets/images/data.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:47:38] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:47:38] "GET /static/assets/images/front2.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:47:38] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:47:50] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:47:50] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:47:50] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:47:50] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:47:50] "GET /static/assets/images/web.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:47:50] "GET /static/assets/images/data.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:47:50] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:47:50] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:47:50] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:47:55] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:47:55] "GET /static/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:47:55] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:47:55] "GET /static/assets/images/web.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:47:55] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:47:55] "GET /static/assets/images/data.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:47:55] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:47:55] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:47:55] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:48:15] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:48:15] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:48:15] "GET /static/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:48:15] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:48:15] "GET /static/assets/images/data.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:48:15] "GET /static/assets/images/web.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:48:15] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:48:15] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:48:15] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:51:48] "GET /?name=a&email=cgao5%40yahoo.com HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:51:48] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:51:48] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:53:09] "GET /?name=a&email=cgao5%40yahoo.com HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:53:09] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:53:09] "GET /static/assets/images/data.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:53:09] "GET /static/assets/images/web.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:53:09] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:53:09] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:53:09] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:53:09] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:53:09] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:53:26] "GET /?name=a&email=cgao5%40yahoo.com HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:53:26] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:53:26] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:53:26] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:53:26] "GET /static/assets/images/data.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:53:26] "GET /static/assets/images/web.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:53:26] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:53:26] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:53:26] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:59:44] "GET /?name=a&email=cgao5%40yahoo.com HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:59:44] "GET /static/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:59:44] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:59:44] "GET /static/assets/images/data.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:59:44] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:59:44] "GET /static/assets/images/web.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:59:44] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:59:44] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:59:44] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:59:56] "GET /?name=a&email=cgao5%40yahoo.com HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:59:56] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:59:56] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:59:56] "GET /static/assets/images/web.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:59:56] "GET /static/assets/images/data.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:59:56] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:59:56] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:59:56] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2019 23:59:56] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:01:37] "GET /?name=a&email=cgao5%40yahoo.com HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:01:37] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:01:37] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:01:37] "GET /static/assets/images/web.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:01:37] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:01:37] "GET /static/assets/images/data.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:01:37] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:01:37] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:01:37] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:03:05] "GET /?name=a&email=cgao5%40yahoo.com HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:03:05] "GET /static/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:03:05] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:03:05] "GET /static/assets/images/data.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:03:05] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:03:05] "GET /static/assets/images/web.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:03:05] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:03:05] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:03:05] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:03:23] "GET /?name=a&email=cgao5%40yahoo.com HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:03:23] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:03:23] "GET /static/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:03:23] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:03:23] "GET /static/assets/images/web.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:03:23] "GET /static/assets/images/data.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:03:23] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:03:23] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:03:23] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:03:34] "GET /?name=a&email=cgao5%40yahoo.com HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:03:34] "GET /static/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:03:34] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:03:34] "GET /static/assets/images/data.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:03:34] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:03:34] "GET /static/assets/images/web.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:03:34] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:03:34] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:03:34] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:05:33] "GET /?name=a&email=cgao5%40yahoo.com HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:05:33] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:05:33] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:05:33] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:05:33] "GET /static/assets/images/data.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:05:33] "GET /static/assets/images/web.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:05:33] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:05:33] "GET /static/assets/images/front2.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:05:33] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:05:41] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:05:41] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:05:41] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:07:07] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:07:07] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:07:07] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:07:52] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:07:52] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:07:52] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:07:52] "GET /static/assets/images/data.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:07:52] "GET /static/assets/images/web.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:07:52] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:07:52] "GET /static/assets/images/front2.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:07:52] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:07:52] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:07:54] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:07:54] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:07:54] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+ERROR:werkzeug:Error on request:
+Traceback (most recent call last):
+  File "/Users/chenxigao/anaconda3/envs/snakes/lib/python2.7/site-packages/werkzeug/serving.py", line 303, in run_wsgi
+    execute(self.server.app)
+  File "/Users/chenxigao/anaconda3/envs/snakes/lib/python2.7/site-packages/werkzeug/serving.py", line 294, in execute
+    write(data)
+  File "/Users/chenxigao/anaconda3/envs/snakes/lib/python2.7/site-packages/werkzeug/serving.py", line 257, in write
+    self.send_header(key, value)
+  File "/Users/chenxigao/anaconda3/envs/snakes/lib/python2.7/BaseHTTPServer.py", line 412, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:07:54] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:08:27] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:08:27] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:08:27] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:10:06] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:10:06] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:10:06] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:10:48] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:10:48] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:10:48] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:10:48] "GET /static/assets/images/data.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:10:48] "GET /static/assets/images/web.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:10:48] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:10:48] "GET /static/assets/images/front2.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:10:48] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:10:48] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:11:07] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:11:07] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:11:07] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:11:07] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:11:07] "GET /static/assets/images/data.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:11:07] "GET /static/assets/images/web.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:11:07] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:11:07] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:11:07] "GET /static/assets/images/front2.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:11:27] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:11:28] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:11:28] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:11:28] "GET /static/assets/images/data.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:11:28] "GET /static/assets/images/web.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:11:28] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:11:28] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:11:28] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:11:28] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:11:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:11:43] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:11:43] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:11:43] "GET /static/assets/images/web.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:11:43] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:11:43] "GET /static/assets/images/data.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:11:43] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:11:43] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:11:43] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:12:09] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:12:42] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:12:42] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:12:42] "GET /static/main.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:12:42] "GET /static/assets/images/data.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:12:42] "GET /static/assets/images/web.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:12:42] "GET /static/assets/images/img-08.jpg HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:12:42] "GET /static/assets/images/research.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:12:42] "GET /main.faaf51f9.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2019 00:12:42] "GET /static/assets/images/front2.jpg HTTP/1.1" 304 -
