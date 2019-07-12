@@ -15,7 +15,7 @@ app.config['UPLOADED_CSVS_DEST'] = 'uploads'
 csvs = UploadSet('csvs', DATA)
 configure_uploads(app, csvs)
 
-@app.route('/', methods=['GET', 'POST'])
+@app.route('/demo2', methods=['GET', 'POST'])
 def index():
 
     if request.method == 'POST':
@@ -49,7 +49,7 @@ def index():
 
             return flask.render_template("outputmsg.html", msglist = messagelist[1:])
 
-    return render_template('index.html')
+    return render_template('demo2.html')
 
 def cleanUploadFolder():
         fp = os.path.join(os.path.dirname(app.instance_path), "uploads/")
@@ -72,14 +72,17 @@ def clearLogfile():
     with open(filepath, 'w') as f:
         pass
 
-@app.route('/about')
+@app.route('/about2')
 def show_about():
-    return render_template('about.html')
-    
-@app.route('/demo')
-def demo():
-    return render_template('demo.html')
+    return render_template('about2.html')
 
+@app.route('/demo1')
+def demo():
+    return render_template('demo1.html')
+
+@app.route('/')
+def main_page():
+    return render_template('main.html')
 
 if __name__=='__main__':
     app.run(host='0.0.0.0', port=80, debug=True)
